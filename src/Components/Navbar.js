@@ -26,7 +26,7 @@ const Navbar = () => {
         Contact Me
     </button>
     </Link>
-    <img src={burgerMenu} alt="BurgerMenu" className='mobMenu' onClick={()=>setShowMenu(!showMenu)}/>
+    <img src={burgerMenu} alt="BurgerMenu" aria-label="Burger Menu Icon" className='mobMenu' onClick={()=>setShowMenu(!showMenu)}/>
     <div className="navMenu" style={{display : showMenu?'flex':'none'}}>
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset= {-100} duration={500} className="ListItems" onClick={()=>setShowMenu(false)}>Home</Link>
         <Link activeClass='active' to='skills' spy={true} smooth={true} offset= {-50} duration={500} className="ListItems" onClick={()=>setShowMenu(false)}>About</Link>

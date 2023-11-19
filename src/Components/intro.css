@@ -63,6 +63,7 @@ width: 2rem;
 }
 .HireMeButton{
     border: none;
+    cursor: pointer;
 }
 .IntroName {
     -webkit-text-stroke: .5px;
