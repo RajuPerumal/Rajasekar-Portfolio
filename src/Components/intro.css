@@ -1,0 +1,95 @@
+#intro{
+    height:calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.bg{
+position: absolute;
+top: -2rem;
+right: 0;
+z-index: -1;
+object-fit: cover;
+height: 120vh;
+}
+.introContent{
+height: 100vh;
+width: 100vw;
+padding: 2rem;
+font-size: 3rem;
+font-weight: 700;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.IntroPara{
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.hiremebtn{
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem ;
+    border: none;
+    border-radius: 2rem;
+
+}
+.btnImg{
+object-fit: cover;  
+margin:0.25rem;
+width: 2rem;
+
+      
+    
+}
+.hiremeLink{
+    margin-top: 0.5rem;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    max-width: 8rem;
+    height: 2.5rem;
+    border-radius: 30px;
+}
+.HireMeButton{
+    border: none;
+}
+.IntroName {
+    -webkit-text-stroke: .5px;
+    background: linear-gradient(90deg, yellow, yellow, yellow);
+    /* letter-spacing: 4px; */
+    /* -webkit-background-clip: text; */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 3s linear infinite;
+    position: relative;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
+  
+@media  screen and (max-width:480px) {
+    .bg{
+        right: -20vw;
+    }
+    
+}
+
