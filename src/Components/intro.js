@@ -3,7 +3,7 @@ import './intro.css'
 // import {Link} from "react-scroll"
 import HireMe from "../assets/HireMe.png"
 import ProfilePic from "../assets/png 3.png"
-import {handleDownload} from "./Constants.js"
+// import {handleDownload} from "./Constants.js"
 // import TextRevealing from "./TextRevealing"
 
 
@@ -19,7 +19,9 @@ const Intro = ()=> {
             <p className="IntroPara">Empowering Lives through Code, Compassion, and Inclusivity</p>
             <div className='hiremeLink'>
               <img src={HireMe} alt='hireme'className='btnImg'/>
-              <button className='HireMeButton' onClick={handleDownload}>Hire Me</button>
+              <button className='HireMeButton' 
+              // onClick={handleDownload}
+              >Hire Me</button>
             </div>
             {/* <Link ><button className="hiremebtn"><img src={HireMe} alt="hireme" className='btnImg'/>Hire Me</button></Link> */}
         </div>

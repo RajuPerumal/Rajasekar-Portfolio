@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <section id="ContactPage">
         <div id="clients">
-            <h1 className="contacPageTitle">My Interests</h1>
+            <h1 className="contacPageTitle">My Skills</h1>
             <p className="clientDesc">Committed to staying at the forefront of web technologies to create innovative and user-friendly digital experiences.</p>
             <div className="clientImgs">
                 <img src={atom} alt="" className="clientImg" />
