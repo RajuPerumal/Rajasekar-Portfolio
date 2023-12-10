@@ -33,6 +33,12 @@
     height: 20rem;
     margin: 0.5rem;
 }
+.worksImg2{
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+    width: 66%;
+}
 .worksBtn{
     margin:3rem 0 ;
     padding: 0.5rem;

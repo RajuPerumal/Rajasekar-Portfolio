@@ -10,6 +10,10 @@ import html from "../assets/html-5.png"
 import css from "../assets/css-3.png"
 import atom from "../assets/atom.png"
 import javascript from "../assets/java-script.png"
+import express from "../assets/express.png"
+import java from "../assets/java.png"
+import nodejs from "../assets/nodejs.png"
+import mongodb from "../assets/mongodb_plain_wordmark_logo_icon_146423.png"
 
 
 const Contact = () => {
@@ -37,6 +41,12 @@ const Contact = () => {
                 <img src={javascript} alt="" className="clientImg" />
                 <img src={html} alt="" className="clientImg" />
                 <img src={css} alt="" className="clientImg" />
+            </div>
+            <div className="clientImgs">
+                <img src={mongodb} alt="" className="clientImg" />
+                <img src={nodejs} alt="" className="clientImg" />
+                <img src={express} alt="" className="clientImg" />
+                <img src={java} alt="" className="clientImg" />
             </div>
         </div>
         <div id="contacts">

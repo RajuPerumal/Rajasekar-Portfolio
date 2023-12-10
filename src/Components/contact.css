@@ -27,10 +27,11 @@ flex-wrap: wrap;
 }
 .clientImg{
     object-fit: cover;
-    width: 23%;
-    min-width: 9rem;
+    width: 12%;
+    min-width: 7rem;
     margin: auto;
     padding: 0.25rem;
+    max-height: 7rem;
 }
 #clients{
     padding: 2rem;
