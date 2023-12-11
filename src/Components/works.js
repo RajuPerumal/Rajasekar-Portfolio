@@ -9,7 +9,7 @@ const Works = () => {
   return (
     <section id='works'>
         <h2 className="workstitle">My Portfolio</h2>
-        <span className="worksdesc">Paragraph</span>
+        {/* <span className="worksdesc">Paragraph</span> */}
         <div className="worksImgs">
             <img src={Foodvilla} alt="" className="worksImg" />
             <img src={TNMDA} alt="" className="worksImg" />

@@ -67,7 +67,8 @@ width: 2rem;
 }
 .IntroName {
     -webkit-text-stroke: .5px;
-    background: linear-gradient(90deg, yellow, yellow, yellow);
+    /* background: linear-gradient(90deg, yellow, yellow, yellow); */
+    background: linear-gradient(90deg, blueviolet, blueviolet, blueviolet);
     /* letter-spacing: 4px; */
     /* -webkit-background-clip: text; */
     background-clip: text;
@@ -91,6 +92,21 @@ width: 2rem;
     .bg{
         right: -20vw;
     }
-    
+    .introContent{
+    margin-top: 132px;
+    margin-left: -13px;
+    font-size: 28px;
+    color: blueviolet;
+    }
+    .IntroPara{
+        color:blue;
+        font-family: cursive;
+    }
+    .frontenddev{
+        color: blue;
+    }
+    .hello{
+        color: white;
+    }
 }
 

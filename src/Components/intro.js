@@ -11,10 +11,10 @@ const Intro = ()=> {
   return (
     <section id="intro">
         <div className="introContent">
-            <span className="hello">Hello</span>
+            <span className="hello">Hello,</span>
             <span className="IntroText">I'm 
             <span className="IntroName"> Rajasekar</span>
-            <br />Front End Developer
+            <br /><span className='frontenddev'>Front End Developer</span>
             </span>
             <p className="IntroPara">Empowering Lives through Code, Compassion, and Inclusivity</p>
             <div className='hiremeLink'>
