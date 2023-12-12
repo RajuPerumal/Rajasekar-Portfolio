@@ -6,7 +6,7 @@ const Footer = () => {
     <>
     
     <footer className="footer">
-        Copyright &#169; Rajasekar. All right received.
+        Copyright &#169; Rajasekar. All right reserved.
     </footer>
     </>
   )
